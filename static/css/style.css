@@ -110,3 +110,12 @@ li a:hover {
     color:rgb(123, 172, 188);
     font-size: 90px !important;
 }
+.contacts
+{
+    width: 26.5%;
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+    padding-top:0px;
+}
