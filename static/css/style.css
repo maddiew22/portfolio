@@ -64,15 +64,6 @@ li a:hover {
     color:rgb(123, 172, 188);
     font-size: 90px !important;
 }
-.contacts
-{
-    width: 29.25%;
-    margin: 30px;
-    display: inline-block;
-    text-align: center;
-    padding:20px;
-    padding-top:0px;
-}
 .footer
 {
     width:100%;
@@ -119,7 +110,7 @@ html
 {
     background-color: rgb(198, 223, 231);
 }
-.experience2
+.aliceblue-flex
 {
     background-color: aliceblue;
     border-radius: 10px;
