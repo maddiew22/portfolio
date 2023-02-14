@@ -10,6 +10,10 @@ def home_page():
 def experience():
     return render_template("experience.html")
 
+@app.route('/projects.html')
+def projects():
+    return render_template("projects.html")
+
 @app.route('/contact.html')
 def contact():
     return render_template("contact.html")

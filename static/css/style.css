@@ -104,19 +104,26 @@ html
 {
     margin: 30px;
     flex:1;
-    background-color: white;
     border-radius: 10px;
     text-align: center;
     padding:20px;
-    box-shadow: 7px 7px 3px lightblue;
 }
 .flex-child:first-child
 {
     margin-right:20px;
 }
-.flex-child:hover
+.white-flex:hover, .aliceblue-flex:hover
 {
     background-color: rgb(198, 223, 231);
+}
+.no-hover:hover
+{
+    background-color: aliceblue;
+}
+.white-flex
+{
+    background-color: white;
+    box-shadow: 7px 7px 3px lightblue;
 }
 .aliceblue-flex
 {
@@ -134,7 +141,7 @@ html
     border-radius: 500px;
     margin: 10px;
     box-shadow: 7px 7px 3px lightblue;
-    background-color: aliceblue;
+    background-color: white;
 }
 @media (max-width: 800px)
 {
