@@ -14,5 +14,37 @@ def experience():
 def contact():
     return render_template("contact.html")
 
+@app.route('/christie.html')
+def christie():
+    return render_template("christie.html")
+
+@app.route('/ewb.html')
+def ewb():
+    return render_template("ewb.html")
+
+@app.route('/biotron.html')
+def biotron():
+    return render_template("biotron.html")
+
+@app.route('/deep.html')
+def deep():
+    return render_template("deep.html")
+
+@app.route('/uway.html')
+def uway():
+    return render_template("uway.html")
+
+@app.route('/gaa.html')
+def gaa():
+    return render_template("gaa.html")
+
+@app.route('/tutoring.html')
+def tutoring():
+    return render_template("tutoring.html")
+
+@app.route('/tns.html')
+def tns():
+    return render_template("tns.html")
+
 if __name__ == '__main__':
     app.run(debug=True)
