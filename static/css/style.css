@@ -19,11 +19,11 @@ h3 {
 }
 p 
 {
-    margin: 30px;
+    margin: 50px;
     text-align: center;
     color: rgb(123, 172, 188);
+    font-size: 18px;
 }
-
 a:link {
     color:white;
     text-decoration: none;
@@ -113,10 +113,20 @@ html
 .aliceblue-flex
 {
     background-color: aliceblue;
-    border-radius: 10px;
-    text-align: center;
-    padding:20px;
     box-shadow: 7px 7px 3px rgb(123, 172, 188);
+}
+.invisible-flex, .invisible-flex:hover
+{
+    padding: 0px;
+    box-shadow: 0px 0px white;
+    background-color: white;
+}
+.skills, .skills:hover
+{
+    border-radius: 500px;
+    margin: 10px;
+    box-shadow: 7px 7px 3px lightblue;
+    background-color: aliceblue;
 }
 @media (max-width: 800px)
 {
