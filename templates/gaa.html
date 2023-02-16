@@ -1,27 +1,25 @@
 {% extends "experience_base.html" %}
-{% include "base.html" %}
 {% block title %} 
-        Girls Athletic Association
+    {{ super() }} - Girls Athletic Association
 {% endblock %}
 
-{% block content %}
-    {% block job %}
-        Vice-President
-    {% endblock %}
-    {% block company %}
-        Northern Secondary School Girls Athletic Association
-    {% endblock %}
-    {% block date %}
-        Vice-President: September 2021 - June 2022
-        <br></br>
-        Head of Publicity: September 2020 - September 2021
-    {% endblock %}
-    {% block job_description %}
-        Being a female growing up in the world of sports, I've always felt the impact of gender inequality in sports. I was thrilled by the opportunity to step into a leadership position in an organization striving to promote inclusivity for women in sports. 
-        As the vice-president, I helped brainstorm, coordinate, and execute fitness classes/challenges, women-only intramural leagues, healthy recipe cookbooks, and mental health initiatives.   
-    {% endblock %}
-    {% block company_description %}
-        Northern Secondary School's Girls Athletic Association is a group of passionate female sports-lovers who organize fitness and wellness initiatives to promote physical activity and foster a welcoming environment for women in sports.
-        This group challenges the underrepresentation of females in sports and provide a safe, welcoming, and fun environment for female students to connect. 
-    {% endblock %}
+
+{% block job %}
+    Vice-President
+{% endblock %}
+{% block company %}
+    Northern Secondary School Girls Athletic Association
+{% endblock %}
+{% block date %}
+    Vice-President: September 2021 - June 2022
+    <br></br>
+    Head of Publicity: September 2020 - September 2021
+{% endblock %}
+{% block job_description %}
+    Being a female growing up in the world of sports, I've always felt the impact of gender inequality in sports. I was thrilled by the opportunity to step into a leadership position in an organization striving to promote inclusivity for women in sports. 
+    As the vice-president, I helped brainstorm, coordinate, and execute fitness classes/challenges, women-only intramural leagues, healthy recipe cookbooks, and mental health initiatives.   
+{% endblock %}
+{% block company_description %}
+    Northern Secondary School's Girls Athletic Association is a group of passionate female sports-lovers who organize fitness and wellness initiatives to promote physical activity and foster a welcoming environment for women in sports.
+    This group challenges the underrepresentation of females in sports and provide a safe, welcoming, and fun environment for female students to connect. 
 {% endblock %}

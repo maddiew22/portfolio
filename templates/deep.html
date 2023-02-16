@@ -1,28 +1,23 @@
 {% extends "experience_base.html" %}
-{% include "base.html" %}
 {% block title %} 
-        DEEP
+    {{ super() }} - DEEP
 {% endblock %}
 
-{% block content %}
-    {% block job %}
-        The Da Vanci Engineering Enrichment Program
-    {% endblock %}
-    {% block company %}
-        The University of Toronto
-    {% endblock %}
-    {% block date %}
-        July 2022 - August 2022
-    {% endblock %}
-    {% block job_description %}
-        Through the Da Vinci Engineering Enrichment Program, I explored the areas of machine learning, robotics, and EEG signal processing.
-        Using Arduino and sensors I created a self-driving robot to navigate an unknown maze. I used functions such as analogRead() and analogWrite() to control the voltage supply going to each wheel of the robot.
-        During this program, I also coded an artificial neural network to perform image recognition of handwritten single digit integers. I first used Python library OpenCV to perform image processing to make the images of numbers more distinguishable. Using numpy I created a machine learning model that included functions to perform forward and backward propagation.
-        Additionally, I explored the use of MATLAB to process EEG signal data.
-    {% endblock %}
-    {% block company_description %}
-        The Da Vinci Engineering Enrichment Program is a program designed for eager and highly motivated high school students to explore innovate topics in engineering taught by University of Toronto PhD and Master's students. The program exposes individuals to upper year undergraduate concepts in engineering.
-    {% endblock %}
-
-
+{% block job %}
+    The Da Vanci Engineering Enrichment Program
+{% endblock %}
+{% block company %}
+    The University of Toronto
+{% endblock %}
+{% block date %}
+    July 2022 - August 2022
+{% endblock %}
+{% block job_description %}
+    Through the Da Vinci Engineering Enrichment Program, I explored the areas of machine learning, robotics, and EEG signal processing.
+    Using Arduino and sensors I created a self-driving robot to navigate an unknown maze. I used functions such as analogRead() and analogWrite() to control the voltage supply going to each wheel of the robot.
+    During this program, I also coded an artificial neural network to perform image recognition of handwritten single digit integers. I first used Python library OpenCV to perform image processing to make the images of numbers more distinguishable. Using numpy I created a machine learning model that included functions to perform forward and backward propagation.
+    Additionally, I explored the use of MATLAB to process EEG signal data.
+{% endblock %}
+{% block company_description %}
+    The Da Vinci Engineering Enrichment Program is a program designed for eager and highly motivated high school students to explore innovate topics in engineering taught by University of Toronto PhD and Master's students. The program exposes individuals to upper year undergraduate concepts in engineering.
 {% endblock %}

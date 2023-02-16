@@ -1,26 +1,24 @@
 {% extends "experience_base.html" %}
-{% include "base.html" %}
 {% block title %} 
-        Christie Digital
+    {{ super() }} - Christie Digital
 {% endblock %}
 
-{% block content %}
-    {% block job %}
-        Software Engineer
-    {% endblock %}
-    {% block company %}
-        Christie Digital Systems 
-    {% endblock %}
-    {% block date %}
-        January 2023 - April 2023
-    {% endblock %}
-    {% block job_description %}
-        As a co-op student, I worked on the Integrated Media Block (IMB) software team. An IMB is a component of a digital cinema projection system that is responsible for the decryption, processing, and playback of content in a secure manner that complies with the anti-piracy requirements of major production studios.
-        Working in a Linux environemnt, I automated the various stage of content playback from scanning for playable content through to unloading and deleting the content. 
-        I integrated a memory leak detection test into our DevOps pipeline to monitor the impact of new additions to the software. 
-        I developed a webpage using Flask, HTML, and CSS to allow for a quicker way to upgrade the IMB with new docker images. More coming soon as I continue this internship!
-    {% endblock %}
-    {% block company_description %}
-        Christie Digital Systems is a global leader in audio visual solutions and display products. They are recognized for their cinema projectors, LED and LCD video walls, laser projector, and warping and blending tools used to project onto irregular surfaces. 
-    {% endblock %}
+
+{% block job %}
+    Software Engineer
+{% endblock %}
+{% block company %}
+    Christie Digital Systems 
+{% endblock %}
+{% block date %}
+    January 2023 - April 2023
+{% endblock %}
+{% block job_description %}
+    As a co-op student, I worked on the Integrated Media Block (IMB) software team. An IMB is a component of a digital cinema projection system that is responsible for the decryption, processing, and playback of content in a secure manner that complies with the anti-piracy requirements of major production studios.
+    Working in a Linux environemnt, I automated the various stage of content playback from scanning for playable content through to unloading and deleting the content. 
+    I integrated a memory leak detection test into our DevOps pipeline to monitor the impact of new additions to the software. 
+    I developed a webpage using Flask, HTML, and CSS to allow for a quicker way to upgrade the IMB with new docker images. More coming soon as I continue this internship!
+{% endblock %}
+{% block company_description %}
+    Christie Digital Systems is a global leader in audio visual solutions and display products. They are recognized for their cinema projectors, LED and LCD video walls, laser projector, and warping and blending tools used to project onto irregular surfaces. 
 {% endblock %}

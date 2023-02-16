@@ -1,24 +1,22 @@
 {% extends "experience_base.html" %}
-{% include "base.html" %}
 {% block title %} 
-        Engineers Without Borders
+    {{ super() }} - Engineers Without Borders
 {% endblock %}
 
-{% block content %}
-    {% block job %}
-        Product Manager
-    {% endblock %}
-    {% block company %}
-        Engineers Without Borders 
-    {% endblock %}
-    {% block date %}
-        September 2022 - December 2022
-    {% endblock %}
-    {% block job_description %}
-        I worked as a Product Manager on Waterloo's Engineers Without Borders Design Team. We partnered with CEMCOD, a youth media literacy non-profit organization based in Uganda, with a mission to re-design and re-code their website to achieve greater outreach. 
-        I lead a team of UI desingers using Figma and web developers using HTML, CSS, and React to implement the website. I organized weekly tickets with Jira to streamline team efficiency and increase task completion rate by 250%.
-    {% endblock %}
-    {% block company_description %}
-        Engineers Without Borders is an organization fighting to end poverty (primarily in Sub-Saharan Africa) by investing in forward thinking social enterprises. The Center for Media Literacy and Community Development (CEMCOD) is one social enterprise based in Uganda that focuses on youth-empowerment through media literacy. 
-    {% endblock %}
+
+{% block job %}
+    Product Manager
+{% endblock %}
+{% block company %}
+    Engineers Without Borders 
+{% endblock %}
+{% block date %}
+    September 2022 - December 2022
+{% endblock %}
+{% block job_description %}
+    I worked as a Product Manager on Waterloo's Engineers Without Borders Design Team. We partnered with CEMCOD, a youth media literacy non-profit organization based in Uganda, with a mission to re-design and re-code their website to achieve greater outreach. 
+    I lead a team of UI desingers using Figma and web developers using HTML, CSS, and React to implement the website. I organized weekly tickets with Jira to streamline team efficiency and increase task completion rate by 250%.
+{% endblock %}
+{% block company_description %}
+    Engineers Without Borders is an organization fighting to end poverty (primarily in Sub-Saharan Africa) by investing in forward thinking social enterprises. The Center for Media Literacy and Community Development (CEMCOD) is one social enterprise based in Uganda that focuses on youth-empowerment through media literacy. 
 {% endblock %}

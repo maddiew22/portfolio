@@ -1,23 +1,22 @@
 {% extends "experience_base.html" %}
-{% include "base.html" %}
+
 {% block title %} 
-        Tutoring
+    {{ super() }} - Tutoring
 {% endblock %}
 
-{% block content %}
-    {% block job %}
-        Math and Physics Tutor
-    {% endblock %}
-    {% block company %}
-        Northern Secondary School
-    {% endblock %}
-    {% block date %}
-        September 2021 - June 2022
-    {% endblock %}
-    {% block job_description %}
-        I tutored grade 11 and grade 12 students in math and physics. I focused on connecting with my tutees to learn about their study habits, schedule, learning style, etc to determine how I could best support them. Through clear communication and creating a study plan personalized to each tutee I was able to help students raise their average test scores in these courses by 30%.
-    {% endblock %}
-    {% block company_description %}
-        Northern's Peer Tutoring Association centers on the idea of students helping other students. Volunteer student tutors are matched with students who need extra support with specific courses.
-    {% endblock %}
+
+{% block job %}
+    Math and Physics Tutor
+{% endblock %}
+{% block company %}
+    Northern Secondary School
+{% endblock %}
+{% block date %}
+    September 2021 - June 2022
+{% endblock %}
+{% block job_description %}
+    I tutored grade 11 and grade 12 students in math and physics. I focused on connecting with my tutees to learn about their study habits, schedule, learning style, etc to determine how I could best support them. Through clear communication and creating a study plan personalized to each tutee I was able to help students raise their average test scores in these courses by 30%.
+{% endblock %}
+{% block company_description %}
+    Northern's Peer Tutoring Association centers on the idea of students helping other students. Volunteer student tutors are matched with students who need extra support with specific courses.
 {% endblock %}

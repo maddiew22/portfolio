@@ -1,24 +1,22 @@
 {% extends "experience_base.html" %}
-{% include "base.html" %}
 {% block title %} 
-        Engineering Ambassador
+    {{ super() }} - Engineering Ambassador
 {% endblock %}
 
-{% block content %}
-    {% block job %}
-        Engineering Ambassador
-    {% endblock %}
-    {% block company %}
-        The University of Waterloo
-    {% endblock %}
-    {% block date %}
-        September 2022 - present
-    {% endblock %}
-    {% block job_description %}
-        As an engineering ambassador I provide mentorship, guidance, and advice to prospective engineering students to encourage high school students to enter the engineering field and help them find the program that is the best fit. 
-        Through one-on-one meetings called "EngChats", I connect with high school students to help them navigate the stressful process of applying to and choosing a university/program.
-    {% endblock %}
-    {% block company_description %}
-        The Engineering Student Ambassador team at Waterloo is a group of students who volunteer their time to help connect prospective students to the Waterloo Engineering community through campus tours, one-on-one conversations, and more!
-    {% endblock %}
+
+{% block job %}
+    Engineering Ambassador
+{% endblock %}
+{% block company %}
+    The University of Waterloo
+{% endblock %}
+{% block date %}
+    September 2022 - present
+{% endblock %}
+{% block job_description %}
+    As an engineering ambassador I provide mentorship, guidance, and advice to prospective engineering students to encourage high school students to enter the engineering field and help them find the program that is the best fit. 
+    Through one-on-one meetings called "EngChats", I connect with high school students to help them navigate the stressful process of applying to and choosing a university/program.
+{% endblock %}
+{% block company_description %}
+    The Engineering Student Ambassador team at Waterloo is a group of students who volunteer their time to help connect prospective students to the Waterloo Engineering community through campus tours, one-on-one conversations, and more!
 {% endblock %}

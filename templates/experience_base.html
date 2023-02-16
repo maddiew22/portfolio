@@ -1,12 +1,17 @@
-<html>
-<body>
+{% extends "base.html" %}
+
+{% block title %}
+    Experiences
+{% endblock %}
+
+{% block content %}
     <h1>
         {% block job %}
         {% endblock %}
     </h1>
     <h2>
-    {% block company %}
-    {% endblock %}    
+        {% block company %}
+        {% endblock %}    
     </h2>
     <br></br>
     <h3> 
@@ -15,22 +20,21 @@
     </h3>
     <div class="flex-container">
         <div class="flex-child aliceblue-flex no-hover">
-           <h2> The Position </h2>
-           <p>
+        <h2> The Position </h2>
+        <p>
                 {% block job_description %}
                 {% endblock %}
-           </p>
+        </p>
         </div>
         <div class="flex-child aliceblue-flex no-hover">
-           <h2> The Company/Organization </h2>
-           <p>
+        <h2> The Company/Organization </h2>
+        <p>
                 {% block company_description %}
                 {% endblock %}
             </p>
         </div>
-     </div>
-     <br></br>
-     <br></br>
-     <br></br>
-</body>
-</html>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+{% endblock %}
