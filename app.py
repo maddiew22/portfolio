@@ -50,5 +50,9 @@ def tutoring():
 def tns():
     return render_template("tns.html")
 
+@app.route('/ambassador.html')
+def ambassador():
+    return render_template("ambassador.html")
+
 if __name__ == '__main__':
     app.run(debug=True)
