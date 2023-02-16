@@ -98,6 +98,8 @@ html
 {
     display:flex;
     padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     flex-direction: row;
 }
 .flex-child
